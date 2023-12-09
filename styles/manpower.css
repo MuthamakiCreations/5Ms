@@ -1,0 +1,53 @@
+ /* Add your styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        
+        header {
+            background-color: #A52A2A; /* Background color of the header */
+            color: #fff; /* Text color in the header */
+            padding: 0px; /* Padding around the header */
+            display:flex; /* Enable flexbox layout for header i.e positioning of the elements(Logo, Home,Manpower, Materials, etc) */
+            flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+            align-items: center; /* Center items vertically in the header */
+            margin: 0px;
+            border: 0px;
+        }
+        
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        .h12 {
+            text-align: left;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        .profile {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .profile div {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
